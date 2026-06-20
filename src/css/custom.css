@@ -912,6 +912,10 @@ button[title="Switch between dark and light mode (currently light mode)"] svg,
   padding: 0px 70px !important;
 }
 
+.usage-header .menu__list-item-collapsible:first-child a:first-of-type::before {
+  background-image: url('../../static/img/sidebar-icons/usage.svg');
+}
+
 .api-reference-header .menu__list-item-collapsible:first-child a:first-of-type::before {
   background-image: url('../../static/img/sidebar-icons/api-reference.svg');
 }

@@ -14,7 +14,39 @@ const sidebars = {
           label: 'Introduction',
         },
       ],
-    }
+    },
+
+    {
+      type: 'category',
+      label: 'Platform UI',
+      className: 'category-as-header usage-header',
+      collapsed: true,
+      items: [    
+        'ui/index',
+        'ui/setup-orgs',
+        'ui/setup-projects',
+      ],
+    },    
+
+    {
+      type: 'category',
+      label: 'Platform IAC',
+      className: 'category-as-header api-reference-header',
+      collapsed: false,
+      items: [
+        'iac/index',
+      ],
+    },    
+
+    {
+      type: 'category',
+      label: 'Platform API',
+      className: 'category-as-header code-definition-header',
+      collapsed: true,
+      items: [    
+        'api/index',
+      ],
+    },    
   ],
 };
 
